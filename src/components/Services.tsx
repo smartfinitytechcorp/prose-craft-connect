@@ -1,44 +1,44 @@
 
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { PenTool, Target, Zap, Globe, BookOpen, TrendingUp } from "lucide-react";
+import { GraduationCap, FileText, Code, BookOpen, PenTool, Lightbulb } from "lucide-react";
 
 const Services = () => {
   const services = [
     {
-      icon: PenTool,
-      title: "Blog Writing",
-      description: "Engaging, SEO-optimized blog posts that establish your authority and drive organic traffic to your website.",
-      features: ["SEO Optimization", "Research-backed content", "Consistent publishing schedule"]
+      icon: GraduationCap,
+      title: "Assignments & Coursework",
+      description: "Professional assistance with academic assignments and coursework across all subjects and academic levels.",
+      features: ["Timely deliveries", "Expert formatting", "Unlimited revisions"]
     },
     {
-      icon: Target,
-      title: "Copywriting",
-      description: "Persuasive sales copy that converts visitors into customers through compelling headlines and calls-to-action.",
-      features: ["Sales pages", "Email campaigns", "Ad copy"]
-    },
-    {
-      icon: Globe,
-      title: "Website Content",
-      description: "Professional website copy that communicates your value proposition and guides users through their journey.",
-      features: ["Landing pages", "About pages", "Service descriptions"]
+      icon: Code,
+      title: "Technical Projects",
+      description: "Comprehensive support for technical writing projects, including documentation and analysis.",
+      features: ["Technical accuracy", "Detailed documentation", "Industry standards"]
     },
     {
       icon: BookOpen,
-      title: "Content Strategy",
-      description: "Comprehensive content strategies that align with your business goals and target audience needs.",
-      features: ["Content planning", "Editorial calendars", "Brand voice development"]
+      title: "Homework & Dissertations",
+      description: "Complete homework solutions and dissertation writing with meticulous referencing and research.",
+      features: ["Thorough research", "Proper citations", "Grammar check"]
     },
     {
-      icon: Zap,
-      title: "Social Media",
-      description: "Engaging social media content that builds community and drives engagement across all platforms.",
-      features: ["Post creation", "Caption writing", "Content calendars"]
+      icon: FileText,
+      title: "Essays & Research Papers",
+      description: "Custom essay writing and research papers that adhere to academic standards and guidelines.",
+      features: ["Original content", "Plagiarism reports", "Academic formatting"]
     },
     {
-      icon: TrendingUp,
-      title: "Email Marketing",
-      description: "Email sequences and newsletters that nurture leads and maintain customer relationships.",
-      features: ["Welcome sequences", "Newsletter content", "Promotional emails"]
+      icon: PenTool,
+      title: "Content & Article Writing",
+      description: "Engaging content creation and article writing for various purposes and audiences.",
+      features: ["SEO optimized", "Engaging content", "Target audience focus"]
+    },
+    {
+      icon: Lightbulb,
+      title: "Creative Writing",
+      description: "Creative writing services including stories, scripts, and imaginative content creation.",
+      features: ["Original creativity", "Compelling narratives", "Unique voice"]
     }
   ];
 
@@ -50,8 +50,27 @@ const Services = () => {
             Our <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">Services</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            From blog posts to sales copy, we provide comprehensive content solutions that drive results for your business.
+            All Designed To Make Your Work Stand Out! We provide comprehensive writing solutions for academic and professional success.
           </p>
+        </div>
+
+        {/* Service Highlights Banner */}
+        <div className="mb-16 bg-gradient-to-r from-blue-600 to-purple-600 rounded-2xl p-8 text-white text-center">
+          <h3 className="text-2xl font-bold mb-6">Why Choose PWS?</h3>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+            <div className="bg-white/20 rounded-lg p-4">
+              <h4 className="font-semibold">Unlimited Revisions</h4>
+            </div>
+            <div className="bg-white/20 rounded-lg p-4">
+              <h4 className="font-semibold">Timely Deliveries</h4>
+            </div>
+            <div className="bg-white/20 rounded-lg p-4">
+              <h4 className="font-semibold">Plagiarism Reports</h4>
+            </div>
+            <div className="bg-white/20 rounded-lg p-4">
+              <h4 className="font-semibold">Meticulous Referencing</h4>
+            </div>
+          </div>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">

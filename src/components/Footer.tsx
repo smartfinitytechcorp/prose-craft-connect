@@ -1,5 +1,5 @@
 
-import { PenTool, Mail, Phone, MapPin } from "lucide-react";
+import { Mail, Phone, MapPin, Facebook } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -9,45 +9,57 @@ const Footer = () => {
           {/* Company Info */}
           <div className="col-span-1 md:col-span-2">
             <div className="flex items-center mb-6">
-              <div className="w-10 h-10 bg-gradient-to-r from-blue-500 to-purple-500 rounded-lg flex items-center justify-center mr-3">
-                <PenTool className="w-6 h-6 text-white" />
+              <img 
+                src="/lovable-uploads/90f3935c-c8e6-4c2e-9d09-b13f26c4ddbe.png" 
+                alt="PWS Logo" 
+                className="w-10 h-10 mr-3"
+              />
+              <div>
+                <h3 className="text-2xl font-bold">PWS</h3>
+                <p className="text-sm text-gray-300">Professional Writing Services</p>
               </div>
-              <h3 className="text-2xl font-bold">ContentWriters</h3>
             </div>
             <p className="text-gray-300 mb-6 max-w-md leading-relaxed">
-              We help businesses tell their stories through compelling, results-driven content. 
-              From blog posts to sales copy, we create words that convert.
+              Your Success, Our Priority! We help students and professionals achieve excellence through 
+              high-quality writing services that adhere to the highest academic standards.
             </p>
             <div className="space-y-3">
               <div className="flex items-center text-gray-300">
                 <Mail className="w-5 h-5 mr-3 text-blue-400" />
-                <span>hello@contentwriters.com</span>
+                <span>info@pws-writing.com</span>
               </div>
               <div className="flex items-center text-gray-300">
                 <Phone className="w-5 h-5 mr-3 text-blue-400" />
-                <span>+1 (555) 123-4567</span>
+                <span>+1 (555) PWS-HELP</span>
               </div>
               <div className="flex items-center text-gray-300">
-                <MapPin className="w-5 h-5 mr-3 text-blue-400" />
-                <span>New York, NY 10001</span>
+                <Facebook className="w-5 h-5 mr-3 text-blue-400" />
+                <a 
+                  href="https://www.facebook.com/share/1Eq1U5xfoA/" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="hover:text-white transition-colors duration-300"
+                >
+                  Visit our Facebook Page
+                </a>
               </div>
             </div>
           </div>
 
           {/* Services */}
           <div>
-            <h4 className="text-lg font-semibold mb-6">Services</h4>
+            <h4 className="text-lg font-semibold mb-6">Academic Services</h4>
             <ul className="space-y-3">
               {[
-                "Blog Writing",
-                "Copywriting",
-                "Website Content",
-                "Content Strategy",
-                "Social Media",
-                "Email Marketing"
+                "Assignments",
+                "Coursework",
+                "Technical Projects",
+                "Homework",
+                "Dissertations",
+                "Essays"
               ].map((service, index) => (
                 <li key={index}>
-                  <a href="#" className="text-gray-300 hover:text-white transition-colors duration-300">
+                  <a href="#services" className="text-gray-300 hover:text-white transition-colors duration-300">
                     {service}
                   </a>
                 </li>
@@ -55,20 +67,20 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Company */}
+          {/* Writing Services */}
           <div>
-            <h4 className="text-lg font-semibold mb-6">Company</h4>
+            <h4 className="text-lg font-semibold mb-6">Writing Services</h4>
             <ul className="space-y-3">
               {[
-                "About Us",
-                "Our Team",
-                "Portfolio",
-                "Testimonials",
-                "Blog",
-                "Contact"
+                "Content Writing",
+                "Creative Writing",
+                "Article Writing",
+                "Research Papers",
+                "Grammar Check",
+                "Plagiarism Reports"
               ].map((item, index) => (
                 <li key={index}>
-                  <a href="#" className="text-gray-300 hover:text-white transition-colors duration-300">
+                  <a href="#services" className="text-gray-300 hover:text-white transition-colors duration-300">
                     {item}
                   </a>
                 </li>
@@ -80,7 +92,7 @@ const Footer = () => {
         <div className="border-t border-gray-800 mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-400 text-sm">
-              © 2024 ContentWriters. All rights reserved.
+              © 2024 PWS - Professional Writing Services. All rights reserved.
             </p>
             <div className="flex space-x-6 mt-4 md:mt-0">
               <a href="#" className="text-gray-400 hover:text-white transition-colors duration-300 text-sm">
