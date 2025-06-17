@@ -5,24 +5,24 @@ import { Star, Quote } from "lucide-react";
 const Portfolio = () => {
   const testimonials = [
     {
-      name: "Sarah Johnson",
-      role: "Marketing Director",
-      company: "TechStart Inc.",
-      content: "Their content strategy transformed our blog traffic by 300% in just 6 months. The quality and consistency are unmatched.",
+      name: "Sarah Mitchell",
+      role: "Marketing Manager",
+      company: "TechFlow Solutions",
+      content: "Their blog writing transformed our content strategy completely. We went from 2,000 to 25,000 monthly visitors in just 8 months. The quality and SEO optimization are exceptional.",
       rating: 5
     },
     {
-      name: "Michael Chen",
+      name: "David Chen",
+      role: "E-commerce Director", 
+      company: "StyleHub Online",
+      content: "The product descriptions they wrote increased our conversion rate by 38%. Their copywriting captures our brand voice perfectly and drives real sales results.",
+      rating: 5
+    },
+    {
+      name: "Lisa Rodriguez",
       role: "CEO",
-      company: "GrowthCo",
-      content: "Working with this team has been game-changing. Our conversion rates improved dramatically after implementing their copy.",
-      rating: 5
-    },
-    {
-      name: "Emily Rodriguez",
-      role: "Founder",
-      company: "CreativeAgency",
-      content: "Professional, reliable, and incredibly talented. They understood our brand voice perfectly from day one.",
+      company: "GreenTech Startup",
+      content: "Their email marketing copy helped us achieve a 28% open rate and 12% click-through rate. Professional, creative, and results-driven content every time.",
       rating: 5
     }
   ];
