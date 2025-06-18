@@ -29,21 +29,21 @@ const Portfolio = () => {
 
   const caseStudies = [
     {
-      title: "E-commerce Sales Copy",
-      description: "Increased conversion rates by 45% with persuasive product descriptions",
-      result: "+45% Conversions",
+      title: "SEO Blog Content",
+      description: "Comprehensive blog strategy that boosted organic search rankings and drove qualified traffic",
+      result: "+1200% Organic Traffic",
       color: "from-blue-500 to-cyan-500"
     },
     {
-      title: "Blog Content Strategy",
-      description: "Grew organic traffic from 10K to 100K monthly visitors",
-      result: "+900% Traffic",
+      title: "Sales Copywriting",
+      description: "Persuasive sales pages and email sequences that dramatically improved conversion rates",
+      result: "+65% Conversions",
       color: "from-purple-500 to-pink-500"
     },
     {
-      title: "Email Campaign Series",
-      description: "Achieved 32% open rate with engaging newsletter content",
-      result: "32% Open Rate",
+      title: "Content Marketing Strategy",
+      description: "Complete content overhaul including blogs, social media, and email campaigns",
+      result: "+850% Engagement",
       color: "from-green-500 to-emerald-500"
     }
   ];
@@ -56,7 +56,7 @@ const Portfolio = () => {
             Success <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">Stories</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            See how our content has helped businesses achieve remarkable results and exceed their marketing goals.
+            See how our content writing and copywriting services have helped businesses achieve remarkable results and exceed their marketing goals.
           </p>
         </div>
 
