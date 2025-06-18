@@ -5,45 +5,45 @@ import { Star, Quote } from "lucide-react";
 const Portfolio = () => {
   const testimonials = [
     {
-      name: "Sarah Mitchell",
-      role: "Marketing Manager",
-      company: "TechFlow Solutions",
-      content: "Their blog writing transformed our content strategy completely. We went from 2,000 to 25,000 monthly visitors in just 8 months. The quality and SEO optimization are exceptional.",
+      name: "Emily Johnson",
+      role: "Graduate Student",
+      company: "University of Manchester",
+      content: "Their dissertation writing service was exceptional. They helped me structure my research methodology and delivered a high-quality thesis that exceeded my professor's expectations. Highly recommended!",
       rating: 5
     },
     {
-      name: "David Chen",
-      role: "E-commerce Director", 
-      company: "StyleHub Online",
-      content: "The product descriptions they wrote increased our conversion rate by 38%. Their copywriting captures our brand voice perfectly and drives real sales results.",
+      name: "Marcus Thompson",
+      role: "MBA Student", 
+      company: "London Business School",
+      content: "The assignment writing quality is outstanding. They completed my business analysis paper with proper citations and formatting. Received an A+ grade and couldn't be happier with the results.",
       rating: 5
     },
     {
-      name: "Lisa Rodriguez",
-      role: "CEO",
-      company: "GreenTech Startup",
-      content: "Their email marketing copy helped us achieve a 28% open rate and 12% click-through rate. Professional, creative, and results-driven content every time.",
+      name: "Priya Sharma",
+      role: "Undergraduate Student",
+      company: "King's College London",
+      content: "PWS saved my semester! Their essay writing service delivered my literature review on time with excellent research and analysis. The plagiarism report gave me complete confidence.",
       rating: 5
     }
   ];
 
   const caseStudies = [
     {
-      title: "SEO Blog Content",
-      description: "Comprehensive blog strategy that boosted organic search rankings and drove qualified traffic",
-      result: "+1200% Organic Traffic",
+      title: "Dissertation Writing",
+      description: "Comprehensive dissertation support including research, methodology, analysis, and professional formatting",
+      result: "95% A+ Grades",
       color: "from-blue-500 to-cyan-500"
     },
     {
-      title: "Sales Copywriting",
-      description: "Persuasive sales pages and email sequences that dramatically improved conversion rates",
-      result: "+65% Conversions",
+      title: "Assignment Excellence",
+      description: "Custom assignment writing across all subjects with proper citations and academic standards",
+      result: "100% On-Time Delivery",
       color: "from-purple-500 to-pink-500"
     },
     {
-      title: "Content Marketing Strategy",
-      description: "Complete content overhaul including blogs, social media, and email campaigns",
-      result: "+850% Engagement",
+      title: "Research Papers",
+      description: "In-depth research papers with thorough analysis, proper methodology, and plagiarism-free content",
+      result: "Zero Plagiarism",
       color: "from-green-500 to-emerald-500"
     }
   ];
@@ -56,7 +56,7 @@ const Portfolio = () => {
             Success <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">Stories</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            See how our content writing and copywriting services have helped businesses achieve remarkable results and exceed their marketing goals.
+            See how our academic writing services have helped students achieve outstanding results in their assignments, dissertations, and research papers.
           </p>
         </div>
 
@@ -82,7 +82,7 @@ const Portfolio = () => {
 
         {/* Testimonials */}
         <div className="text-center mb-12">
-          <h3 className="text-3xl font-bold text-gray-900 mb-4">What Our Clients Say</h3>
+          <h3 className="text-3xl font-bold text-gray-900 mb-4">What Our Students Say</h3>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
