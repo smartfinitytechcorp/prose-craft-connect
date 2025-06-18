@@ -54,7 +54,7 @@ const handler = async (req: Request): Promise<Response> => {
     // Send email to company
     const emailToCompany = await resend.emails.send({
       from: "PWS Contact Form <onboarding@resend.dev>",
-      to: ["smarfinitytechcorp@gmail.com"],
+      to: ["elijahmurphy2428@gmail.com"],
       subject: `New Contact Form Submission: ${formData.subject}`,
       html: `
         <h2>New Contact Form Submission</h2>
